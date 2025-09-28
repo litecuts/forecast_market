@@ -4,11 +4,6 @@
 This project forecasts financial time series using **ARIMA** (statsmodels) and **Prophet** (if installed).
 It downloads real prices from **Yahoo Finance** (via `yfinance`) and falls back to **synthetic data** if download fails.
 
-## Install
-```bash
-pip install -r requirements.txt
-```
-
 ## Run
 ```bash
 python forecast_market.py --ticker AAPL --start 2018-01-01 --end 2024-12-31 --horizon 90
